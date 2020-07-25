@@ -8,10 +8,6 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-        ('products', '0002_auto_20200723_2102'),
-    ]
-
     operations = [
         migrations.CreateModel(
             name='Order',
