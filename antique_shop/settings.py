@@ -44,10 +44,10 @@ INSTALLED_APPS = [
     'home',
     'products',
     'bag',
-    'ckeckout'
+    'checkout',
 
     # other
-    'crispy_form'
+    'crispy_form',
 ]
 
 MIDDLEWARE = [
@@ -75,7 +75,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  #required by allauth
+                'django.template.context_processors.request',  #  required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
