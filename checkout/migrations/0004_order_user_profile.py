@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('profiles', '0001_initial'),
-        ('checkout', '0003_auto_20200301_2355'),
+        ('checkout', '0003_auto_20200802_1851'),
     ]
 
     operations = [
